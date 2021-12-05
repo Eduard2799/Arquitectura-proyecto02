@@ -22,7 +22,7 @@
             </div>
             <div class="six columns">
               <label for="exampleEmailInput">Region:</label>
-              <input class="u-full-width" type="text" placeholder="" id="exampleEmailInput" :value="house.region">              
+              <label class="u-full-width button"><NuxtLink :to="'/regions/'+house.region_id"><!--<input class="u-full-width" type="text" placeholder="" id="exampleEmailInput" :value="character.allegiances">-->{{house.region}}</NuxtLink></label>              
              <img class="u-max-full-width" :src="'/images/houses/'+house.image" alt="House">
             </div>
           </div>
